@@ -18,6 +18,12 @@ The project is organized as follows:
   - `grafana/provisioning/dashboards/ai-metrics-dashboard.yml` - Automatic dashboard loading configuration
   - `grafana/provisioning/datasources/prometheus.yml` - Connects Grafana to Prometheus data source automatically
 
+
+![Spring Boot + Prometheus + Grafana](./images/spring_prometheus_grafana.png)
+
+![How they work together](./images/how_they_work_together.png)
+
+
 ## Setup
 
 1. Set your OpenAI API key as an environment variable:
