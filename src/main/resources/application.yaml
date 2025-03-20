@@ -1,0 +1,9 @@
+spring:
+  ai:
+    azure:
+      openai:
+        api-key: ${GITHUB_TOKEN}
+        endpoint: "https://models.inference.ai.azure.com"
+        chat:
+          options:
+            model: gpt-4o
